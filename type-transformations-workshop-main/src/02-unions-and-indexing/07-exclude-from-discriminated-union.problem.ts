@@ -11,10 +11,10 @@ export type Event =
     }
   | {
       type: "keydown";
-      event: KeyboardEvent;
+      event: keydown;
     };
 
-type NonKeyDownEvents = unknown;
+    type NonKeyDownEvents = Exclude<Event, { type: "keydown" }>;
 
 type tests = [
   Expect<
