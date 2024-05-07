@@ -14,6 +14,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "/home/doronin/Personal/Programming/Projects/TypeScript/type-transformations-workshop-main/src/03.5-type-helpers-pattern/20.3-multiple.problem.ts"
+    "/home/doronin/Personal/Programming/Projects/TypeScript/type-transformations-workshop-main/src/03.5-type-helpers-pattern/20.5-function-constraints.problem.ts"
   ]
 }
